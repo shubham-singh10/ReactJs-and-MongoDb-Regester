@@ -3,6 +3,7 @@ import { Router } from "express";
 
 const router =Router();
 
+//
 /**import all controller API */
 import * as controller from '../controllers/appController.js'
 import Auth,{localVeriables} from '../middleware/auth.js'
